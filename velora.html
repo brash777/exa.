@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Velora</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+
+  <!-- ===== BARRA DE ARRIBA ===== -->
+  <div class="bg-gray-100 text-center text-sm p-2">
+     Free Shipping on orders over $100
+  </div>
+
+
+  <!-- ===== ENCABEZADO ===== -->
+  <header class="flex justify-between items-center px-2 py-5">
+    <h1 class="text-3xl font-bold">☰ VELORA</h1>
+
+    <nav class="flex gap-6 text-sm">
+      <a href="#">HOME</a>
+      <a href="#">SHOP</a>
+      <a href="#">NEW ARRIVALS</a>
+      <a href="#">COLLECTIONS</a>
+      <a href="#">SALE</a>
+      <a href="#">BLOG</a>
+    </nav>
+
+    <div class="flex gap-4">
+      
+    </div>
+  </header>
+
+
+  <!-- ===== PRODUCTO ===== -->
+  <section class="flex gap-6 px-10 py-5">
+
+    <!-- fotos pequeñas -->
+    <div class="flex flex-col gap-3 w-20">
+      <img src="https://placehold.co/100x120" class="rounded border-2 border-black ">
+      <img src="https://placehold.co/100x120" class="rounded">
+      <img src="https://placehold.co/100x120" class="rounded">
+      <img src="https://placehold.co/100x120" class="rounded">
+    </div>
+
+    <!-- foto grande -->
+    <div class="w-1/5">
+      <img src="https://placehold.co/500x600" class="w-full rounded-lg">
+    </div>
+
+    <!-- informacion -->
+    <div class="w-1/2">
+      <span class="bg-gray-100 rounded text-xs px-2 py-1">New Arrival</span>
+      <h2 class="text-4xl font-bold mt-3">Essential Oversized Hoodie</h2>
+      <p class="mt-2">★★★★★ 4.8 (128 reviews)</p>
+
+      <p class="mt-4">
+        <span class="text-3xl font-bold">$59.99</span>
+        <span class="text-gray-400 line-through ml-2">$89.99</span>
+        <span class="bg-black text-white text-xs p-1 ml-2">33% OFF</span>
+      </p>
+
+      <p class="text-gray-600 mt-4">
+        Premium heavyweight cotton hoodie with an oversized fit for ultimate comfort and modern style.
+      </p>
+
+      <hr class="my-5">
+
+      <!-- colores -->
+      <p><b>Color:</b> Charcoal Gray</p>
+      <div class="flex gap-3 mt-2">
+        <div class="w-9 h-9 rounded- bg-gray-700 border-2 border-black"></div>
+        <div class="w-9 h-9 rounded-full bg-gray-300"></div>
+        <div class="w-9 h-9 rounded-full bg-orange-100"></div>
+        <div class="w-9 h-9 rounded-full bg-black"></div>
+      </div>
+
+      <!-- tallas -->
+      <p class="mt-5"><b>Size:</b> M</p>
+      <div class="flex gap-2 mt-2">
+        <button class="border px-4 py-2">S</button>
+        <button class="bg-black text-white px-4 py-2">M</button>
+        <button class="border px-4 py-2">L</button>
+        <button class="border px-4 py-2">XL</button>
+        <button class="border px-4 py-2">XXL</button>
+      </div>
+
+      <!-- boton carrito -->
+      <div class="flex gap-3 mt-5">
+        <button class="bg-black text-white w-full py-2 rounded">Add to Cart</button>
+        <button class="border px-4 rounded">♡</button>
+      </div>
+
+      <div class="flex justify-between text-xs mt-5">
+        <p>🚚 Free Shipping</p>
+        <p>🔄 Easy Returns</p>
+        <p>🔒 Secure Payment</p>
+      </div>
+    </div>
+
+  </section>
+
+
+  <!-- ===== DETALLES ===== -->
+  <section class="flex gap-8 px-10 py-10">
+
+    <div class="w-1/2">
+      <div class="flex gap-6 border-b pb-2 text-sm">
+        <a href="#" class="font-bold underline">Details</a>
+        <a href="#">Materials</a>
+        <a href="#">Size & Fit</a>
+        <a href="#">Shipping & Returns</a>
+      </div>
+
+      <p class="mt-4 text-gray-600">
+        Crafted from high-quality heavyweight cotton, this hoodie delivers unmatched comfort and durability.
+      </p>
+
+      <ul class="mt-4">
+        <li>- Oversized fit</li>
+        <li>- Soft & heavyweight fabric</li>
+        <li>- Adjustable drawstring hood</li>
+        <li>- Ribbed cuffs and hem</li>
+        <li>- Unisex style</li>
+      </ul>
+    </div>
+
+    <div class="w-1/2">
+      <img src="https://placehold.co/500x300" class="w-full rounded-lg">
+    </div>
+
+  </section>
+
+
+  <!-- ===== TAMBIEN TE PUEDE GUSTAR ===== -->
+  <section class="px-10 pb-10">
+
+    <div class="flex justify-between">
+      <h3 class="text-2xl font-bold">You May Also Like</h3>
+      <a href="#">View All →</a>
+    </div>
+
+    <div class="grid grid-cols-4 gap-5 mt-5">
+
+      <div class="border rounded">
+        <img src="https://placehold.co/250x250" class="w-full">
+        <div class="p-3">
+          <p>Minimal Hoodie</p>
+          <p class="font-bold">$54.99</p>
+        </div>
+      </div>
+
+      <div class="border rounded">
+        <img src="https://placehold.co/250x250" class="w-full">
+        <div class="p-3">
+          <p>Classic Sweatshirt</p>
+          <p class="font-bold">$49.99</p>
+        </div>
+      </div>
+
+      <div class="border rounded">
+        <img src="https://placehold.co/250x250" class="w-full">
+        <div class="p-3">
+          <p>Zip Up Hoodie</p>
+          <p class="font-bold">$64.99</p>
+        </div>
+      </div>
+
+      <div class="border rounded">
+        <img src="https://placehold.co/250x250" class="w-full">
+        <div class="p-3">
+          <p>Essential Hoodie</p>
+          <p class="font-bold">$59.99</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+</body>
+</html>
